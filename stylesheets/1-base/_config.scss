@@ -1,0 +1,30 @@
+html {
+  word-wrap: break-word;
+  font-size: 62.5%;
+}
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+a {
+  transition: opacity 0.2s;
+}
+a:hover {
+  opacity: 0.6;
+}
+ul li {
+  list-style: none;
+}
