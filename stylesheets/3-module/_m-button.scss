@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  text-align: center;
+  a {
+    color: $white;
+  }
+  &--md {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6rem;
+    background: $blue;
+    padding: 1em 4em;
+    border-radius: 5em;
+  }
+  &--lg {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    background: $blue;
+    padding: 1em 5em;
+    border-radius: 5em;
+  }
+}

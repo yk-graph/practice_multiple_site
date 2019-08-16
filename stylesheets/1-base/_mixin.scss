@@ -1,0 +1,29 @@
+@mixin  flex($justify-content, $align-items) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin font($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+@mixin gray-cover($opacity) {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, $opacity);
+}
+
+@mixin object-align($x, $y) {
+  position: absolute;
+  top: $y;
+  left: $x;
+  transform: translateY(-$y) translateX(-$x);
+  margin: auto;
+}
