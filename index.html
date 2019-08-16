@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>藤岡行政書士 | 京都にある行政書士のホームページ</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="javascripts/script.js"></script>
+    <script src="javascripts/maps.js"></script>
   </head>
   
   <body>
     <div id="wrap" class="index">
       <header id="header">
         <h1 id="logo"><a href="index.html#logo">藤岡行政書士事務所</a></h1>
-
         <nav id="nav">
           <ul>
             <li><a href="about.html">About</a></li>
@@ -35,20 +37,21 @@
           <h2 class="main-message">WEB INTEGRATION<br>& LEGAL AFFAIRS</h2>
           <P class="sub-message">IT専門の行政書士たちが、あなたのビジネスを守ります</P>
         </div>
-      </div>
 
-      <div class="top-topics">
-        <h2 class="top-topics__heading">webを通して人々の心や生活が豊かになるよう、法律の面からサポートいたします。</h2>
-        <p class="top-topics__text">当事務所ではIT法務（契約書作成や各種許認可手続きなど）を中心に、海外技術者のビザ手続き、
-          そしてwebを介した新たなビジネスモデルとして評判の民泊（登録手続き）など、広くwebに関する手続きのサポートを行ってまいります。
-         </p>
-      </div>
+        <div class="top-topics">
+          <div class="top-topics__content">
+            <h2 class="top-topics__content__heading">webを通して人々の心や生活が豊かになるよう、法律の面からサポートいたします。</h2>
+            <p class="top-topics__content__text">当事務所ではIT法務（契約書作成や各種許認可手続きなど）を中心に、海外技術者のビザ手続き、
+            そしてwebを介した新たなビジネスモデルとして評判の民泊（登録手続き）など、広くwebに関する手続きのサポートを行ってまいります。</p>
+          </div>
+        </div>
 
-      <div class="top-news">
-        <h2 class="top-news__heading">NEWS</h2>
-        <div class="top-news__content">
-          <time>2018/01/11</time>
-          <span>ああああああああああああああああああああああああああああああああああああああああああああああああああ</span>
+        <div class="top-news">
+          <h2 class="top-news__heading heading">NEWS</h2>
+          <div class="top-news__content">
+            <time>2018/01/11</time>
+            <p>ああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
         </div>
       </div>
 
@@ -57,7 +60,7 @@
         <ul class="service-articles">
           <li class="service-card">
             <a href="#">
-              <img src="" alt="サービス内容の関連画像" class="service-card__image">
+              <img src="images/service-image_01.png" alt="サービス内容の関連画像" class="service-card__image">
               <h3 class="service-card__heading">
                 <span class="service-card__heading__number">#01</span>
                 <span class="service-card__heading__title">IT法務</span>
@@ -67,7 +70,7 @@
           </li>
           <li class="service-card">
             <a href="#">
-              <img src="" alt="サービス内容の関連画像" class="service-card__image">
+              <img src="images/service-image_02.png" alt="サービス内容の関連画像" class="service-card__image">
               <h3 class="service-card__heading">
                 <span class="service-card__heading__number">#02</span>
                 <span class="service-card__heading__title">ビザ申請業務</span>
@@ -77,7 +80,7 @@
           </li>
           <li class="service-card">
             <a href="#">
-              <img src="" alt="サービス内容の関連画像" class="service-card__image">
+              <img src="images/service-image_03.png" alt="サービス内容の関連画像" class="service-card__image">
               <h3 class="service-card__heading">
                 <span class="service-card__heading__number">#03</span>
                 <span class="service-card__heading__title">民泊申請</span>
@@ -86,7 +89,9 @@
             </a>
           </li>
         </ul>
-        <a href="#" class="button">詳しく見る</a>
+        <div class="button">
+          <a href="#" class="button--md">詳しく見る</a>
+        </div>
       </section>
 
       <section id="blog">
@@ -94,27 +99,50 @@
         <ul class="blog-articles">
           <li class="blog-card">
             <a href="#">
-              <img src="" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
               <h3 class="blog-card__heading">タイトルタイトル</h3>
               <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
             </a>
           </li>
           <li class="blog-card">
             <a href="#">
-              <img src="" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
               <h3 class="blog-card__heading">タイトルタイトル</h3>
               <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
             </a>
           </li>
           <li class="blog-card">
             <a href="#">
-              <img src="" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <h3 class="blog-card__heading">タイトルタイトル</h3>
+              <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
+            </a>
+          </li>
+          <li class="blog-card">
+            <a href="#">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <h3 class="blog-card__heading">タイトルタイトル</h3>
+              <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
+            </a>
+          </li>
+          <li class="blog-card">
+            <a href="#">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
+              <h3 class="blog-card__heading">タイトルタイトル</h3>
+              <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
+            </a>
+          </li>
+          <li class="blog-card">
+            <a href="#">
+              <img src="images/service-image_01.png" alt="ブログのアイキャッチ画像" class="blog-card__image">
               <h3 class="blog-card__heading">タイトルタイトル</h3>
               <p class="blog-card__desc">簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な説明簡単な</p>
             </a>
           </li>
         </ul>
-        <a href="#" class="button">詳しく見る</a>
+        <div class="button">
+          <a href="#" class="button--md">詳しく見る</a>
+        </div>
       </section>
 
       <section id="map">
@@ -122,12 +150,15 @@
 
       <section id="contact">
         <p>まずはメールでお気軽にお問い合わせください</p>
-        <a href="#" class="button">CONTACT</a>
+        <div class="button">
+          <a href="#" class="button--lg">CONTACT</a>
+        </div>
       </section>
 
       <footer id="footer">
       </footer>
 
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA_o7gh5KIpNrv5lJHDJKD08_N0YM5KNA&callback=initMap" async></script>
   </body>
 </html>
