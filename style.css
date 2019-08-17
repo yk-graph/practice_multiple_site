@@ -211,6 +211,26 @@ ul li {
   color: #FFFFFF;
 }
 
+.under-head {
+  width: 100%;
+  height: 285px;
+  background: #364D6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.under-head__heading {
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
 .heading {
   color: #A4ABB0;
 }
@@ -535,4 +555,147 @@ ul li {
 
 #wrap.index #blog .blog-articles .button {
   margin-top: 50px;
+}
+
+#wrap.about .main-visual, #wrap.service .main-visual {
+  width: 100%;
+  height: 775px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+#wrap.about .main-visual__image, #wrap.service .main-visual__image {
+  width: 100%;
+  height: 650px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#wrap.about .main-visual .top-topics, #wrap.service .main-visual .top-topics {
+  width: 75%;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#wrap.about .main-visual .top-topics__content, #wrap.service .main-visual .top-topics__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90%;
+}
+
+#wrap.about .main-visual .top-topics__content__heading, #wrap.service .main-visual .top-topics__content__heading {
+  font-size: 3rem;
+}
+
+#wrap.about .main-visual .top-topics__content__text, #wrap.service .main-visual .top-topics__content__text {
+  font-size: 1.8rem;
+}
+
+#wrap.about #point, #wrap.service #point {
+  margin: 0 auto 150px;
+  width: 960px;
+}
+
+#wrap.about #point .point-heading, #wrap.service #point .point-heading {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+#wrap.about #point .point-heading::after, #wrap.service #point .point-heading::after {
+  display: block;
+  content: '';
+  margin-top: 5px;
+  width: 120px;
+  height: 2px;
+  background: #AB5683;
+}
+
+#wrap.about #point .point-desc__heading, #wrap.service #point .point-desc__heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #5B5C5C;
+}
+
+#wrap.about #point .point-desc__text, #wrap.service #point .point-desc__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#wrap.about #point .point-desc__text p, #wrap.service #point .point-desc__text p {
+  width: 45%;
+  font-size: 1.6rem;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+}
+
+#wrap.about #company, #wrap.service #company {
+  padding: 100px 0;
+  background: #F2F2F2;
+}
+
+#wrap.about #company .company-wrap, #wrap.service #company .company-wrap {
+  margin: 0 auto;
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#wrap.about #company .company-date, #wrap.service #company .company-date {
+  width: 45%;
+}
+
+#wrap.about #company .company-date__heading, #wrap.service #company .company-date__heading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #5B5C5C;
+}
+
+#wrap.about #company .company-date__desc, #wrap.service #company .company-date__desc {
+  font-size: 1.6rem;
+  color: #5B5C5C;
+  line-height: 2.4em;
+}
+
+#wrap.about #company .company-date__desc dt, #wrap.service #company .company-date__desc dt {
+  float: left;
+  clear: left;
+}
+
+#wrap.about #company .company-date__desc dt::after, #wrap.service #company .company-date__desc dt::after {
+  content: '：';
+}
+
+#wrap.about #company .company-date__desc dd, #wrap.service #company .company-date__desc dd {
+  float: left;
+}
+
+#wrap.about #company__image, #wrap.service #company__image {
+  width: 45%;
 }

@@ -1,0 +1,10 @@
+.under-head {
+  width: 100%;
+  height: 285px;
+  background: $middle-blue;
+  @include flex(center, center);
+  &__heading {
+    font-size: 3rem;
+    color: $white;
+  }
+}
