@@ -557,21 +557,21 @@ ul li {
   margin-top: 50px;
 }
 
-#wrap.about .main-visual, #wrap.service .main-visual {
+#wrap.about .main-visual {
   width: 100%;
   height: 775px;
   position: relative;
   margin-bottom: 150px;
 }
 
-#wrap.about .main-visual__image, #wrap.service .main-visual__image {
+#wrap.about .main-visual__image {
   width: 100%;
   height: 650px;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-#wrap.about .main-visual .top-topics, #wrap.service .main-visual .top-topics {
+#wrap.about .main-visual .top-topics {
   width: 75%;
   height: 250px;
   position: absolute;
@@ -582,7 +582,7 @@ ul li {
   transform: translateX(-50%);
 }
 
-#wrap.about .main-visual .top-topics__content, #wrap.service .main-visual .top-topics__content {
+#wrap.about .main-visual .top-topics__content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -602,25 +602,25 @@ ul li {
   width: 90%;
 }
 
-#wrap.about .main-visual .top-topics__content__heading, #wrap.service .main-visual .top-topics__content__heading {
+#wrap.about .main-visual .top-topics__content__heading {
   font-size: 3rem;
 }
 
-#wrap.about .main-visual .top-topics__content__text, #wrap.service .main-visual .top-topics__content__text {
+#wrap.about .main-visual .top-topics__content__text {
   font-size: 1.8rem;
 }
 
-#wrap.about #point, #wrap.service #point {
+#wrap.about #point {
   margin: 0 auto 150px;
   width: 960px;
 }
 
-#wrap.about #point .point-heading, #wrap.service #point .point-heading {
+#wrap.about #point .point-heading {
   font-size: 3rem;
   margin-bottom: 25px;
 }
 
-#wrap.about #point .point-heading::after, #wrap.service #point .point-heading::after {
+#wrap.about #point .point-heading::after {
   display: block;
   content: '';
   margin-top: 5px;
@@ -629,13 +629,13 @@ ul li {
   background: #AB5683;
 }
 
-#wrap.about #point .point-desc__heading, #wrap.service #point .point-desc__heading {
+#wrap.about #point .point-desc__heading {
   font-size: 2rem;
   margin-bottom: 30px;
   color: #5B5C5C;
 }
 
-#wrap.about #point .point-desc__text, #wrap.service #point .point-desc__text {
+#wrap.about #point .point-desc__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -644,19 +644,19 @@ ul li {
   justify-content: space-between;
 }
 
-#wrap.about #point .point-desc__text p, #wrap.service #point .point-desc__text p {
+#wrap.about #point .point-desc__text p {
   width: 45%;
   font-size: 1.6rem;
   letter-spacing: 0.2em;
   line-height: 1.8em;
 }
 
-#wrap.about #company, #wrap.service #company {
+#wrap.about #company {
   padding: 100px 0;
-  background: #F2F2F2;
+  background: #F2F0E8;
 }
 
-#wrap.about #company .company-wrap, #wrap.service #company .company-wrap {
+#wrap.about #company .company-wrap {
   margin: 0 auto;
   width: 960px;
   display: -webkit-box;
@@ -667,35 +667,229 @@ ul li {
   justify-content: space-between;
 }
 
-#wrap.about #company .company-date, #wrap.service #company .company-date {
+#wrap.about #company .company-date {
   width: 45%;
 }
 
-#wrap.about #company .company-date__heading, #wrap.service #company .company-date__heading {
+#wrap.about #company .company-date__heading {
   font-size: 3rem;
   margin-bottom: 30px;
   color: #5B5C5C;
 }
 
-#wrap.about #company .company-date__desc, #wrap.service #company .company-date__desc {
+#wrap.about #company .company-date__desc {
   font-size: 1.6rem;
   color: #5B5C5C;
   line-height: 2.4em;
 }
 
-#wrap.about #company .company-date__desc dt, #wrap.service #company .company-date__desc dt {
+#wrap.about #company .company-date__desc dt {
   float: left;
   clear: left;
 }
 
-#wrap.about #company .company-date__desc dt::after, #wrap.service #company .company-date__desc dt::after {
+#wrap.about #company .company-date__desc dt::after {
   content: '：';
 }
 
-#wrap.about #company .company-date__desc dd, #wrap.service #company .company-date__desc dd {
+#wrap.about #company .company-date__desc dd {
   float: left;
 }
 
-#wrap.about #company__image, #wrap.service #company__image {
+#wrap.about #company__image {
+  width: 45%;
+}
+
+#wrap.service .main-visual {
+  width: 100%;
+  height: 650px;
+}
+
+#wrap.service .main-visual__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#wrap.service #service {
+  width: 100%;
+  margin-bottom: 150px;
+  padding: 150px 0 0;
+  border: 5px solid #F2F0E8;
+}
+
+#wrap.service #service .service-content {
+  margin: 0 auto 100px;
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#wrap.service #service .service-content .service-text {
+  width: 50%;
+}
+
+#wrap.service #service .service-content .service-text__heading {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+#wrap.service #service .service-content .service-text__heading__number {
+  display: inline-block;
+  width: 75px;
+  height: 100%;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 60px;
+  background: #202037;
+  color: #FFFFFF;
+}
+
+#wrap.service #service .service-content .service-text__heading__title {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding-left: 20px;
+  color: #202037;
+  line-height: 60px;
+}
+
+#wrap.service #service .service-content .service-text__desc {
+  font-size: 1.6rem;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+  color: #A4ABB0;
+}
+
+#wrap.service #service .service-content .service-list {
+  width: 45%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5% 4%;
+  background: #F2F0E8;
+}
+
+#wrap.service #service .service-content .service-list__heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #202037;
+}
+
+#wrap.service #service .service-content .service-list__heading--text {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #202037;
+}
+
+#wrap.service #service .service-content .service-list__heading span {
+  padding: 0 25px;
+}
+
+#wrap.service #service .service-content .service-list__heading i {
+  color: #A4ABB0;
+}
+
+#wrap.service #service .service-content .service-list__content {
+  font-size: 1.6rem;
+  letter-spacing: 0.2em;
+  line-height: 2.4em;
+  color: #A4ABB0;
+  margin-bottom: 30px;
+}
+
+#wrap.service #point {
+  margin: 0 auto 150px;
+  width: 960px;
+}
+
+#wrap.service #point .point-heading {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+#wrap.service #point .point-heading::after {
+  display: block;
+  content: '';
+  margin-top: 5px;
+  width: 120px;
+  height: 2px;
+  background: #AB5683;
+}
+
+#wrap.service #point .point-desc__heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #5B5C5C;
+}
+
+#wrap.service #point .point-desc__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#wrap.service #point .point-desc__text p {
+  width: 45%;
+  font-size: 1.6rem;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+}
+
+#wrap.service #company {
+  padding: 100px 0;
+  background: #F2F0E8;
+}
+
+#wrap.service #company .company-wrap {
+  margin: 0 auto;
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#wrap.service #company .company-date {
+  width: 45%;
+}
+
+#wrap.service #company .company-date__heading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #5B5C5C;
+}
+
+#wrap.service #company .company-date__desc {
+  font-size: 1.6rem;
+  color: #5B5C5C;
+  line-height: 2.4em;
+}
+
+#wrap.service #company .company-date__desc dt {
+  float: left;
+  clear: left;
+}
+
+#wrap.service #company .company-date__desc dt::after {
+  content: '：';
+}
+
+#wrap.service #company .company-date__desc dd {
+  float: left;
+}
+
+#wrap.service #company__image {
   width: 45%;
 }
