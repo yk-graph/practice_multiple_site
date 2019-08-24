@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>藤岡行政書士 | サービス内容について</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="../javascripts/script.js"></script>
   </head>
   
   <body>
     <div id="wrap" class="price">
       <header id="header">
-        <h1 id="logo"><a href="index.html#logo">藤岡行政書士事務所</a></h1>
-
+        <h1 id="logo"><a href="../index.html">藤岡行政書士事務所</a></h1>
         <nav id="nav">
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="price.html">Price</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../service/index.html">Service</a></li>
+            <li><a href="../price/index.html">Price</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#" target="_blank">Contact</a></li>
           </ul>
@@ -38,14 +40,14 @@
 
       <div id="price">
         <section class="price-content price-01">
-          <h2 class="price-content__heading">
-            <span class="price-content__heading__number">#01</span>
-            <span class="price-content__heading__title">IT法務</span>
+          <h2 class="band-heading">
+            <span class="band-heading__number">#01</span>
+            <span class="band-heading__title">IT法務</span>
           </h2>
           <div class="price-desc">
             <h3 class="price-desc__heading">IT法務顧問</h3>
             <p class="price-desc__text">IT法務顧問など継続的にリーガルチェック、法務サポートを行います。</p>
-            <table class="price-desc__table">
+            <table>
               <tr>
                 <th>業務内容</th>
                 <th>報酬額</th>
@@ -85,9 +87,9 @@
         </section>
 
         <section class="price-content price-02">
-          <h2 class="price-content__heading">
-            <span class="price-content__heading__number">#02</span>
-            <span class="price-content__heading__title">ビザ申請業務</span>
+          <h2 class="band-heading">
+            <span class="band-heading__number">#02</span>
+            <span class="band-heading__title">ビザ申請業務</span>
           </h2>
           <div class="price-desc">
             <p class="price-desc__text">IT法務顧問継続的にリーガルチェック、法務サポートを行います。</p>
@@ -125,22 +127,24 @@
             </table>
           </div>
         </section>
-      </div>
 
-      <section class="price-content price-02">
-        <h2 class="price-content__heading">
-          <span class="price-content__heading__number">#03</span>
-          <span class="price-content__heading__title">民泊申請</span>
-        </h2>
-        <div class="price-desc">
-          <h3 class="price-desc__heading">住宅宿泊事業届等の申請</h3>
-          <p class="price-desc__text">色々なご提案ができます。直接当社までお問い合わせください直接お問い合わせください。</p>
-        </div>
-      </section>
+        <section class="price-content price-03">
+          <h2 class="band-heading">
+            <span class="band-heading__number">#03</span>
+            <span class="band-heading__title">民泊申請</span>
+          </h2>
+          <div class="price-desc">
+            <h3 class="price-desc__heading">住宅宿泊事業届等の申請</h3>
+            <p class="price-desc__text">色々なご提案ができます。直接当社までお問い合わせください直接お問い合わせください。</p>
+          </div>
+        </section>
+      </div>
 
       <section id="contact">
         <p>まずはメールでお気軽にお問い合わせください</p>
-        <a href="#" class="button">CONTACT</a>
+        <div class="button">
+          <a href="#" class="button--lg">CONTACT</a>
+        </div>
       </section>
 
       <footer id="footer">

@@ -1,4 +1,4 @@
-@mixin  flex($justify-content, $align-items) {
+@mixin flex($justify-content, $align-items) {
   display: flex;
   justify-content: $justify-content;
   align-items: $align-items;
@@ -26,4 +26,10 @@
   left: $x;
   transform: translateY(-$y) translateX(-$x);
   margin: auto;
+}
+
+@mixin clearfix {
+  display: block;
+  content: '';
+  clear: both;
 }
