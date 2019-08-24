@@ -876,6 +876,10 @@ ul li {
   margin-bottom: 100px;
 }
 
+#wrap.price #price .price-content .price-desc {
+  margin-bottom: 50px;
+}
+
 #wrap.price #price .price-content .price-desc__heading {
   font-size: 1.8rem;
   margin-bottom: 20px;
@@ -886,55 +890,46 @@ ul li {
   margin-bottom: 50px;
 }
 
-#wrap.price #price .price-content .price-desc__table {
+#wrap.price #price .price-content .price-desc table {
+  display: block;
   width: 100%;
-  max-width: 960px;
-  overflow: auto;
+  overflow-x: scroll;
   white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
-#wrap.price #price .price-content .price-desc__table table {
-  table-layout: fixed;
-  border: none;
-  border-collapse: collapse;
+#wrap.price #price .price-content .price-desc table tbody {
+  width: 100%;
   min-width: 100%;
+  table-layout: fixed;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr {
+#wrap.price #price .price-content .price-desc table tbody tr {
   height: 50px;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr th {
+#wrap.price #price .price-content .price-desc table tbody th {
   padding: 10px 0 0 20px;
   text-align: left;
   font-size: 1.8rem;
   border-bottom: 5px solid #2C334B;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr th:nth-of-type(1) {
-  width: 480px;
+#wrap.price #price .price-content .price-desc table tbody th:nth-of-type(1) {
+  width: 320px;
+  min-width: 320px;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr th:nth-of-type(2) {
-  width: 180px;
+#wrap.price #price .price-content .price-desc table tbody th:nth-of-type(2) {
+  width: 240px;
+  min-width: 240px;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr th:nth-of-type(3) {
-  width: 300px;
+#wrap.price #price .price-content .price-desc table tbody th:nth-of-type(3) {
+  width: 375px;
+  min-width: 375px;
 }
 
-#wrap.price #price .price-content .price-desc__table table tr td {
+#wrap.price #price .price-content .price-desc table tbody td {
   border: 1px solid #2C334B;
-}
-
-#wrap.price #price .price-content .price-desc__table table tr td:nth-of-type(1) {
-  width: 480px;
-}
-
-#wrap.price #price .price-content .price-desc__table table tr td:nth-of-type(2) {
-  width: 180px;
-}
-
-#wrap.price #price .price-content .price-desc__table table tr td:nth-of-type(3) {
-  width: 300px;
 }
